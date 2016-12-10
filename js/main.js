@@ -239,7 +239,7 @@ function tick(){
 				kboltx2[i] = "x"
 				hit = [true, 3, 0, ship, 0]
 				for (a = 0; a < 6; a++){
-					if (colors[a] !== 0)colors[a] ++;
+					if (colors[a] !== 0)colors[a] --;
 				};
 			}else{
 				getContext.drawImage(bolt, kboltx2[i] , kbolty[i])
